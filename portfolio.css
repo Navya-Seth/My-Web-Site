@@ -44,20 +44,6 @@ h2{
     font-size:42;
     background:pink;
 }
-.menu{
-   list-style: none;
-    font-family:cursive;
-   float:right;
-    top:10px;
-    right:30px;
-    cursor: pointer;
-    color:black;
-}
-.menu a{
-    
-    color:black !important;
-}
-
 
 .link{
     color:crimson;
@@ -114,4 +100,10 @@ img{
 
 img:hover{
    transform: scale(0.9)
+}
+
+.my_nav_bar {
+    position:sticky;
+    top:0;
+    z-index:99999 
 }
